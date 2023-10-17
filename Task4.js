@@ -3,6 +3,8 @@ const question = document.querySelector('#question').value
 console.log(Username + " Asked the question, " + question);
 
 
+
+
 /* These console logs are purely for dev. to set up break points to make sure code is doing intended result before showing end user*/
 
 
@@ -55,7 +57,7 @@ switch (decicionStatements) {
         break;
 }
 
-answer.textContent = (Username + ", you have asked the question, " + question + ". The gods decided your fate shall be         " + decicionStatements)
+answer.textContent = (Username + ", you have asked the question, " + question + ". The gods decided your fate shall be that        " + decicionStatements)
 }
 
 
@@ -68,29 +70,15 @@ answer.textContent = (Username + ", you have asked the question, " + question + 
 
 
 
-  
 
   
 
+  
 
 
 
-/*const calcgasoline = () => {
-    const price = document.querySelector('#price').value
-const money = document.querySelector('#money').value
-const answer = document.querySelector('#answer')
 
-console.log(price)
-console.log(money)
-console.log(answer)
 
-finalP = (money / price).toFixed(2);
-console.log(finalP)
-
-if (finalP > 10) {
-    answer.textContent = "You will get approximately " + finalP + " liters. Good, you can escape now"
-} else {answer.textContent = "You will get approximately " + finalP + " liters. Ups, you have to stay here"}
-}*/
 
 
 
